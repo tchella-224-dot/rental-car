@@ -1,4 +1,4 @@
-# rental-car
+# Car Rental Website Project
 
 ## Overview
 
