@@ -1,71 +1,87 @@
-# Car Rental Website Project
+# Car Rental Website Projec
 
-## Overview
+Aperçu
+Il s'agit d’un projet de site web de location de voitures. Le projet permet aux utilisateurs de consulter les voitures disponibles, d’effectuer des réservations et de gérer leurs commandes. Le site est construit avec HTML, CSS, JavaScript, PHP et MySQL.
 
-This is a car rental website project. The project allows users to browse available cars, make reservations, and manage their bookings. The website is built using HTML, CSS, JavaScript, PHP, and MySQL.
+Fonctionnalités
+Authentification des utilisateurs : Les utilisateurs peuvent s’inscrire, se connecter et se déconnecter.
 
-## Features
+Liste des voitures : Les utilisateurs peuvent parcourir la liste des voitures disponibles.
 
-- **User Authentication:** Users can register, log in, and log out.
-- **Car Listings:** Users can browse a list of available cars.
-- **Reservations:** Users can make reservations by selecting a car, and return location (under developement).
-- **User Dashboard:** Users can view and manage their reservations (under developement).
-- **Responsive Design:** The website is responsive and works well on different devices.
+Réservations : Les utilisateurs peuvent effectuer une réservation en sélectionnant une voiture et un lieu de retour (en cours de développement).
 
-## Technologies Used
+Tableau de bord utilisateur : Les utilisateurs peuvent visualiser et gérer leurs réservations (en cours de développement).
 
-- HTML
-- CSS
-- JavaScript
-- PHP
-- MySQL
+Design responsive : Le site est adapté aux différents appareils.
 
+Technologies utilisées
+HTML
 
-## Installation
+CSS
 
-### Prerequisites
+JavaScript
 
-- XAMPP or any other local server environment.
-- A web browser.
+PHP
 
-### Steps
+MySQL
 
-1. **Move the project to your server directory:**
-    - For XAMPP, move the project folder to `C:\xampp\htdocs\`.
+Installation
+Prérequis
+XAMPP ou tout autre environnement de serveur local.
 
-2. **Create a database:**
-    - Open PHPMyAdmin.
-    - Create a new database named `car_rental`.
+Un navigateur web.
 
-3. **Import the database:**
-    - Import the `car_rental.sql` file from the project directory into the `car_rental` database.
+Étapes
+Déplacez le projet dans le répertoire de votre serveur :
 
-4. **Update the database configuration:**
-    - Open `connection.php` file in the project directory.
-    - Update the database credentials to match your local server setup.
+Pour XAMPP, déplacez le dossier du projet dans C:\xampp\htdocs\.
 
-    ```php
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "car_rental";
-    ```
+Créez une base de données :
 
-5. **Start the server:**
-    - Open XAMPP Control Panel.
-    - Start the Apache and MySQL modules.
+Ouvrez PHPMyAdmin.
 
-6. **Access the website:**
-    - Open a web browser.
-    - Navigate to ` http://localhost/rental-car-main/index.php`  
-  to log in use this:
-  email:challatoufik3@gmail.com
-  password:tawfikchella  
-  
-## Usage
+Créez une nouvelle base de données nommée car_rental.
 
-- **Register:** Create a new account.
-- **Log in:** Access your account using your credentials.
-- **Browse Cars:** View available cars for rent.
-- **Make a Reservation:** Select a car and provide the required details to make a reservation (under developement).
-- **Manage Reservations:** View and manage your reservations from your dashboard (under developement).
+Importez la base de données :
+
+Importez le fichier car_rental.sql depuis le répertoire du projet dans la base de données car_rental.
+
+Mettez à jour la configuration de la base de données :
+
+Ouvrez le fichier connection.php dans le répertoire du projet.
+
+Mettez à jour les identifiants de la base de données pour correspondre à votre configuration locale.
+
+php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "car_rental";
+Démarrez le serveur :
+
+Ouvrez le Panneau de configuration XAMPP.
+
+Démarrez les modules Apache et MySQL.
+
+Accédez au site web :
+
+Ouvrez un navigateur web.
+
+Rendez-vous sur http://localhost/rental-car-main/index.php
+
+Pour vous connecter, utilisez :
+
+Email : challatoufik3@gmail.com
+
+Mot de passe : tawfikchella
+
+Utilisation
+S’inscrire : Créez un nouveau compte.
+
+Se connecter : Accédez à votre compte avec vos identifiants.
+
+Parcourir les voitures : Consultez les voitures disponibles à la location.
+
+Effectuer une réservation : Sélectionnez une voiture et fournissez les informations demandées pour effectuer une réservation (en cours de développement).
+
+Gérer les réservations : Visualisez et gérez vos réservations depuis votre tableau de bord (en cours de développement).
